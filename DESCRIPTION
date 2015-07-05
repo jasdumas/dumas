@@ -1,0 +1,7 @@
+Package: dumas
+Title: The personal R package of jasmine dumas
+Version: 0.0.0.9000
+Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
+Description: Functions that I have found to be useful!
+Depends: MIT
+LazyData: true
