@@ -1,11 +1,8 @@
 Package: dumas
-Title: The personal R package of jasmine dumas
+Title: The Personal R Package of Jasmine Dumas
 Version: 1.0
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
-Description: Functions that I have found to be useful!
-Depends: 
-<<<<<<< HEAD
-License: 
-=======
->>>>>>> origin/master
+Description: Functions that I have found and/or created to be useful!
+Depends:
+License:
 LazyData: true
