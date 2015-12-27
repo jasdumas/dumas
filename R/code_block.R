@@ -4,5 +4,6 @@
 
 
 code_block = function(text) { 
-l = nchar(text) cat(replicate(l, "#"), "\n", "# ", text, "\n", replicate(l, "#"))
+l = nchar(text) 
+cat(replicate(l, "#"), "\n", "# ", text, "\n", replicate(l, "#"))
 }
