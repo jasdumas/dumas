@@ -4,4 +4,7 @@
 birthday = function() {
 if ('12-25$' %in% Sys.Date()) { 
 print('it is my birthday today') 
-} }   
+} else {
+  print('it is not my birthday')
+}
+  }   
