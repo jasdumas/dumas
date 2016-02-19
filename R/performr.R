@@ -42,9 +42,9 @@ performr <- function(filename, method = "all", ...){
     end3 = proc.time() - ptm
     total3 = start3 - end3
     # method comparison
-    if(total1["user.self"] < total2["user.self"] & total1["user.self"] < total3["user.self"]) {
+    if(total1["elapsed"] < total2["elapsed"] & total1["elapsed"] < total3["elapsed"]) {
       paste0("The fastest method is readr")
-    } else if (total2["user.self"] < total1["user.self"] & total2["user.self"] < total3["user.self"]) {
+    } else if (total2["elapsed"] < total1["elapsed"] & total2["elapsed"] < total3["elapsed"]) {
       paste0("The fastest method is utils")
     }
     else {
