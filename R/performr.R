@@ -8,21 +8,44 @@ performr <- function(filename, method = "all", ...){
     in_file = read_csv(filename, na = "NA")
     # Stop the clock
     end = proc.time() - ptm
-    paste0("The method readr performance was ", start-end, ".")
+    paste0("The method readr performance was ", start["elapsed"]-end["elapsed"], ".")
     
   } else if (method == "utils") {
     start = ptm <- proc.time() 
     in_file = read.table(filename, header = T, sep=",", na.strings = "NA", stringsAsFactors = FALSE)
     end = proc.time() - ptm
-    paste0("The method utils performance was ", start-end, ".")
+    paste0("The method utils performance was ", start["elapsed"]-end["elapsed"], ".")
     
   } else if (method == "data.table") {
     library(data.table)
     start = ptm <- proc.time() 
     in_file = fread(filename)
     end = proc.time() - ptm
-    paste0("The method data.table performance was ", start-end, ".")
-  } 
+    paste0("The method data.table performance was ", start["elapsed"]-end["elapsed"], ".")
+  
+  } else if (method == "bigmemory") {
+    library(bigmemory)
+    library(bigmemory.sri)
+    start = ptm <- proc.time()
+    in_file = read.big.matrix(filename, row.names=TRUE, sep = ",")
+    end = proc.time() - ptm
+    paste0("The method bigmemory performance was ", start["elapsed"]-end["elapsed"], ".")
+    
+  } else if (method = "ff") {
+    library(ff)
+    start = ptm <- proc.time()
+    in_file = read.csv.ffdf(file = filename)
+    end = proc.time() - ptm
+    paste0("The method ff performance was ", start["elapsed"]-end["elapsed"], ".")
+    
+  } else if (method == "sqldf") {
+    library(sqldf)
+    start = ptm <- proc.time()
+    in_file = read.csv.sql(file = filename)
+    end = proc.time() - ptm
+    paste0("The method sqldf performance was ", start["elapsed"]-end["elapsed"], ".") 
+    
+  }
   
   if (method == "all") {
     library(readr)
