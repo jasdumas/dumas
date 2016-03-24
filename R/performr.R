@@ -31,7 +31,7 @@ performr <- function(filename, method = "all", ...){
     end = proc.time() - ptm
     paste0("The method bigmemory performance was ", start["elapsed"]-end["elapsed"], ".")
     
-  } else if (method = "ff") {
+  } else if (method == "ff") {
     library(ff)
     start = ptm <- proc.time()
     in_file = read.csv.ffdf(file = filename)
