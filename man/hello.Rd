@@ -7,7 +7,7 @@
 hello()
 }
 \arguments{
-\item{just}{say hi}
+\item{""}{no arguement needed}
 }
 \value{
 "Hi, I'm Jasmine"

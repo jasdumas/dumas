@@ -1,7 +1,7 @@
 #' Hello!
 #'
 #' This is a starter function to just say hello!
-#' @param  just say hi
+#' @param "" no arguement needed
 #' @return "Hi, I'm Jasmine"
 #' @export
 #'

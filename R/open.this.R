@@ -1,4 +1,4 @@
-#' Title
+#' open and view a dataset in excel
 #'
 #' This opens a dataset in a tempfile in excel for cleaner visuals of the data
 #' @param x dataset or object of class data.frame

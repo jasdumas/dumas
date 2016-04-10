@@ -2,7 +2,7 @@
 % Please edit documentation in R/open.this.R
 \name{open.this}
 \alias{open.this}
-\title{Title}
+\title{open and view a dataset in excel}
 \usage{
 \method{open}{this}(x, file = "__tmp.csv")
 }
