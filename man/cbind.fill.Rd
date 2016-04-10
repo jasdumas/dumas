@@ -7,7 +7,7 @@
 cbind.fill(...)
 }
 \arguments{
-\item{...}{data.frame objects needed to be combined by similar columns}
+\item{...}{data.frame objects needed to be combined by columns}
 }
 \value{
 a data.frame

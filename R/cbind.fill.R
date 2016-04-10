@@ -1,7 +1,7 @@
 #' cbind.fill
 #'
 #' returns a data.frame joined by columns but filled with NA's if the values are missing
-#' @param ... data.frame objects needed to be combined by similar columns
+#' @param ... data.frame objects needed to be combined by columns
 #'
 #' @return a data.frame
 #' @export
