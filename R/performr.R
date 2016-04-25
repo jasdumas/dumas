@@ -17,7 +17,7 @@ performr <- function(filename, method = "all", ...){
     paste0("The method utils performance was ", start["elapsed"]-end["elapsed"], ".")
     
   } else if (method == "data.table") {
-    library(data.table)
+    suppressMessages(library(data.table))
     start = ptm <- proc.time() 
     in_file = fread(filename)
     end = proc.time() - ptm
