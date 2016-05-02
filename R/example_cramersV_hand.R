@@ -47,4 +47,4 @@ example_cramersV_hand <- function(){
   print(paste0("this is the hand calculation value: ", V))
 }
 
-example_cv_func()
+#example_cramersV_hand()
