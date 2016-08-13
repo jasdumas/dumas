@@ -7,13 +7,15 @@
 convert_chr_to_factor(df, ...)
 }
 \arguments{
+\item{df}{a data frame}
+
 \item{...}{dataframe with characters}
 }
 \value{
-df
+a new data.frame
 }
 \description{
-convert character strings into factors
+a work in progress
 }
 \details{
 http://stackoverflow.com/a/2851213

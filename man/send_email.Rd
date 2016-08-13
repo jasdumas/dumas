@@ -16,7 +16,7 @@ send_email(subject, text, address, file = FALSE, filename = "MyRFile",
 
 \item{file}{a object of class 'logical'}
 
-\item{filename}{...}
+\item{filename}{... default name}
 
 \item{linux}{a object of class 'logical'}
 }

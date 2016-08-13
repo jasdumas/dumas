@@ -1,9 +1,9 @@
 #' convert character strings into factors
-#'
-#' @param df
+#' @description a work in progress
+#' @param df a data frame
 #' @param ... dataframe with characters
 #'
-#' @return df
+#' @return a new data.frame
 #' @export
 #'
 #' @examples

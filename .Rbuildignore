@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.travis\.yml$
+^convert_chr_to_factor\.R$
+^replace_only_factors\.R$
+^performr$

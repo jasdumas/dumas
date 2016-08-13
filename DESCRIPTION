@@ -5,4 +5,6 @@ Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = 
 Description: Functions that I have found or created that be useful for data
     analysis, statistical computing and software development!
 RoxygenNote: 5.0.1
-Suggests: testthat
+License: MIT + file LICENSE
+Suggests: testthat,
+          ggplot2

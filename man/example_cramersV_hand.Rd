@@ -2,12 +2,16 @@
 % Please edit documentation in R/example_cramersV_hand.R
 \name{example_cramersV_hand}
 \alias{example_cramersV_hand}
-\title{example Cramer's V function}
+\title{Example Cramer's V function}
 \usage{
 example_cramersV_hand()
 }
+\value{
+a string indicating the cv value for each method
+}
 \description{
-computes the Cramer's V statisitc with dummy data using the lsr funciton and a hand equation
+computes the Cramer's V statisitc with dummy data using the
+  lsr funciton and a hand equation
 }
 \examples{
 example_cv_func()

@@ -18,7 +18,7 @@ add a code block to your code!
 \examples{
 code_block("This section is important")
 
-output is below to be copied:
+## output is below to be copied:
 # # # # # # # # # # # # # # # # # # # # # # # # #
   #  This section is important
 # # # # # # # # # # # # # # # # # # # # # # # # #

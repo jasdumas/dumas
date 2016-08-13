@@ -4,9 +4,7 @@
 #'
 #' @return returns the dataframe with characters in place of factors
 #' @export
-#'
-#' @examples
-#' @details http://stackoverflow.com/a/2853231
+#' @seealso \url{http://stackoverflow.com/a/2853231}
 replace_only_factors <- function(df) {
   # create an empty data.frame in the global environment
   df <<- data.frame()

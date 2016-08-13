@@ -20,6 +20,7 @@ a string message stating which method was the fastest
 Test and compare csv reading performance with multiple packages
 }
 \examples{
-performr("~iris.csv", "readr")
+## don't run
+## performr("iris.csv", "readr")
 }
 

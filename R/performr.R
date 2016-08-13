@@ -4,10 +4,17 @@
 #' @param method object of class character/string choose "all" to run all the methods or select from single methods 'readr','utils', 'data.table', 'bigmemory', 'ff', 'sqldf'.
 #' @param ... optional
 #'
+#' @importFrom readr read_csv
+#' @import bigmemory
+#' @import data.table
+#' @import ff
+#' @import sqldf
 #' @return a string message stating which method was the fastest
 #' @export
 #'
-#' @examples performr("~iris.csv", "readr")
+#' @examples
+#' ## don't run
+#' ## performr("iris.csv", "readr")
 performr <- function(filename, method = "all", ...){
   if (method=="readr"){
     library(readr)

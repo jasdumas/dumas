@@ -15,7 +15,7 @@ returns the dataframe with characters in place of factors
 \description{
 Replace only the factors in a dataframe
 }
-\details{
-http://stackoverflow.com/a/2853231
+\seealso{
+\url{http://stackoverflow.com/a/2853231}
 }
 
