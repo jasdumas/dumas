@@ -2,7 +2,7 @@
 
 The Personal R Package of Jasmine Dumas which includes useful functions for data analysis work. Similar to functions you see on Stack Overflow answers but functionalized for general use with emphasis on helping with the common mundane operations.
 
-![](http://i.giphy.com/TlK63EUqnR3TmL4Kj3a.gif)
+<img class="" src="http://i.giphy.com/TlK63EUqnR3TmL4Kj3a.gif" alt="" width="541" height="305" /> 
 
 ### Featured Functions
 
