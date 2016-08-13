@@ -1,10 +1,12 @@
-## dumas
+# dumas
 
-The Personal R Package of Jasmine Dumas which includes useful functions for data analysis work. Similar to functions you see on Stack Overflow answers but functionalized for general use with emphasis on helping with the common mundane operations.
+The Personal R Package of Jasmine Dumas which includes useful functions for data analysis work. **Similar** to functions you see on Stack Overflow answers but **different** in implementation as functionalized for general use with emphasis on helping with the common mundane operations.
 
-<img class="" src="http://i.giphy.com/TlK63EUqnR3TmL4Kj3a.gif" alt="" width="541" height="305" /> 
+![](https://c1.staticflickr.com/9/8788/18233447992_8ab84ce9a6_z.jpg)
 
-### Featured Functions
+![](i.giphy.com/TlK63EUqnR3TmL4Kj3a.gif)
+
+## Featured Functions
 
 * all_na.R
 * bin_smooth_mean.R
@@ -37,7 +39,7 @@ The Personal R Package of Jasmine Dumas which includes useful functions for data
 * theme_jasmine.R
 * z_score.R
 
-### Installation
+## Installation
 
 Install the development version: 
 
@@ -45,7 +47,7 @@ Install the development version:
 devtools::install_github("jasdumas/dumas")
 ```
 
-### In-progress work
+## In-progress work
 
 * unit tests
 * examples
@@ -53,7 +55,7 @@ devtools::install_github("jasdumas/dumas")
 * unified code style
 * satisfied warnings
 
-### Contact Me
+## Contact Me
 
 Jasmine Dumas | [@jasdumas](https://twitter.com/jasdumas)
 
