@@ -1,6 +1,6 @@
 # dumas
 
-The Personal R Package of Jasmine Dumas which includes useful functions for data analysis work. **Similar** to functions you see on Stack Overflow answers but **different** in implementation as functionalized for general use with emphasis on helping with the common mundane operations.
+The Personal R Package of Jasmine Dumas which includes useful functions for data analysis work. **Similar** to functions you see on Stack Overflow answers but **different** in implementation as they have been functionalized & refactored for general use with emphasis on helping with the common or mundane operations.
 
 ![](https://github.com/jasdumas/dumas/blob/master/giphy%20(3).gif?raw=true)
 
@@ -39,24 +39,28 @@ The Personal R Package of Jasmine Dumas which includes useful functions for data
 
 ## Installation
 
-Install the development version: 
+Install the development version available on GitHub: 
 
 ```r
 devtools::install_github("jasdumas/dumas")
+```
+or
+
+```r
+install_git("git://github.com/jasdumas/dumas.git")
 ```
 
 ## In-progress work
 
 * unit tests
-* examples
+* better examples
 * better descriptions
 * unified code style
 * satisfied warnings
 
 ## Contact Me
 
-Jasmine Dumas | [@jasdumas](https://twitter.com/jasdumas)
-
+Jasmine Dumas | [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/)
 
 
 ## Support on Beerpay
