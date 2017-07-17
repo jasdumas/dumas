@@ -1,10 +1,25 @@
 Package: dumas
 Title: The Personal R Package of Jasmine Dumas
-Version: 1.1
+Version: 1.2.0
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
-Description: Functions that I have found or created that be useful for data
+Description: Functions that I have found or created that can be useful for data
     analysis, statistical computing and software development!
-RoxygenNote: 5.0.1
+Depends: R (>= 3.1.0)
+RoxygenNote: 6.0.1
 License: MIT + file LICENSE
-Suggests: testthat,
-          ggplot2
+LazyData: true
+Suggests:
+  testthat
+Imports: 
+  ggplot2, 
+  lsr, 
+  ROCR, 
+  bigmemory, 
+  data.table, 
+  xgboost, 
+  ff, 
+  sqldf, 
+  dplyr, 
+  readr, 
+  shiny, 
+  

@@ -18,4 +18,3 @@ Calculate z-score for standardization
 \examples{
 z_score(x = c(21, 15, 26, 26, 28, 29))
 }
-

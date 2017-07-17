@@ -2,7 +2,7 @@
 % Please edit documentation in R/convert_chr_to_factor.R
 \name{convert_chr_to_factor}
 \alias{convert_chr_to_factor}
-\title{convert character strings into factors}
+\title{Convert character strings into factors}
 \usage{
 convert_chr_to_factor(df, ...)
 }
@@ -20,4 +20,8 @@ a work in progress
 \details{
 http://stackoverflow.com/a/2851213
 }
-
+\examples{
+ df = data.frame("H_member" = as.character(c("Jasmine", "Jenna", "Fiona")),
+                           "current_age" = c(27, 27, 5))
+convert_chr_to_factor(df)
+}

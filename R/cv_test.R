@@ -1,4 +1,4 @@
-#' calculate the cramer's V statistic
+#' Calculate the Cramer's V statistic
 #'
 #' @param x a numeric vector or matrix, or list to be compared against y
 #' @param y a numeric vector or matrix, or list to be compared against x

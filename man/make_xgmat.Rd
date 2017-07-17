@@ -26,4 +26,3 @@ Create a Sparse matrix for xgboost
 \examples{
 make_xgmat(traindat, train_label)
 }
-

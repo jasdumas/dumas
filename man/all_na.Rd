@@ -19,4 +19,3 @@ Determine all NA columns
 \seealso{
 \url{http://stackoverflow.com/a/11330265/4143444}
 }
-

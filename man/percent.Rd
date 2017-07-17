@@ -2,7 +2,7 @@
 % Please edit documentation in R/percent.R
 \name{percent}
 \alias{percent}
-\title{calculate a percentage}
+\title{Calculate a percentage}
 \usage{
 percent(df)
 }
@@ -19,4 +19,3 @@ calculate the percent of a list of numerical objects in R
 df = c(1, 4, 6, 7, 3, 12)
 percent(df)
 }
-

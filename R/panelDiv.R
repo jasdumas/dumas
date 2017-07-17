@@ -6,7 +6,7 @@
 #'
 #' @return HTML formated for a panel div
 #' @export
-#'
+#' @importFrom shiny HTML
 #' @examples panelDiv('info', 'Status', Sys.Date())
 #' @details http://getbootstrap.com/components/#panels
 panelDiv <-function(class_type, panel_title, content) {

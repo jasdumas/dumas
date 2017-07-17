@@ -25,4 +25,3 @@ Transform NA values to Zeros, which can be helpful
 df = data.frame("x" = 1:3, "missings" = rep(NA, 3))
 df$missings <- missing_to_zero(df, "missings")
 }
-

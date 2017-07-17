@@ -4,7 +4,7 @@
 \alias{cbind.fill}
 \title{cbind.fill}
 \usage{
-cbind.fill(...)
+\method{cbind}{fill}(...)
 }
 \arguments{
 \item{...}{data.frame objects needed to be combined by columns}
@@ -23,4 +23,3 @@ cbind.fill(x, y)
 \seealso{
 http://stackoverflow.com/questions/7962267/cbind-a-df-with-an-empty-df-cbind-fill
 }
-

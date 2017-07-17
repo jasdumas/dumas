@@ -18,4 +18,3 @@ Replace only the factors in a dataframe
 \seealso{
 \url{http://stackoverflow.com/a/2853231}
 }
-

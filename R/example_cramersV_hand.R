@@ -4,7 +4,7 @@
 #'
 #' @return a string indicating the cv value for each method
 #' @export
-#'
+#' @import lsr
 #' @examples
 #' example_cv_func()
 example_cramersV_hand <- function(){
@@ -26,7 +26,6 @@ example_cramersV_hand <- function(){
   #  lsr equation
   # # # # # # # # #
   # To estimate the effect size we can use Cramer's V:
-  library(lsr)
   cv = cramersV( X )  # returns a value of 0.159
   print(paste0("this is the lsr value: ", cv))
 

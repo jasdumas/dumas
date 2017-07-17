@@ -16,4 +16,3 @@ computes the Cramer's V statisitc with dummy data using the
 \examples{
 example_cv_func()
 }
-

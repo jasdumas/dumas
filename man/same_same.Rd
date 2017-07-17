@@ -2,25 +2,25 @@
 % Please edit documentation in R/same_same.R
 \name{same_same}
 \alias{same_same}
-\title{Find columns that are similar duplicates}
+\title{Find columns that are duplicates in a data frame}
 \usage{
-same_same(df, ...)
+same_same(df, message = TRUE)
 }
 \arguments{
-\item{df}{a object of class data frame}
+\item{df}{a object of class data.frame}
 
-\item{...}{optional (TBD)
-
-
- \if{html}{\figure{franco.gif}}}
+\item{message}{a object of class logical indicating to display a helper message}
 }
 \value{
-a string indicating if the columns are identical
+return the data frame without duplicates
 }
 \description{
-this function is a work in progress
+Find columns that are duplicates in a data frame
+}
+\examples{
+a = data.frame(x=letters[1:5], y=letters[1:5], z=letters[6:10])
+same_same(a)
 }
 \seealso{
-\url{http://gph.is/1wtfLvZ}
+\href{http://stackoverflow.com/questions/9818125/identifying-duplicate-columns-in-an-r-data-frame}{Stack Overflow Question}
 }
-

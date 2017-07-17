@@ -23,4 +23,3 @@ Test and compare csv reading performance with multiple packages
 ## don't run
 ## performr("iris.csv", "readr")
 }
-

@@ -25,4 +25,3 @@ http://getbootstrap.com/components/#panels
 \examples{
 panelDiv('info', 'Status', Sys.Date())
 }
-

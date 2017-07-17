@@ -2,12 +2,13 @@
 % Please edit documentation in R/multi_levels.R
 \name{multi_levels}
 \alias{multi_levels}
-\title{determine how many levels are in a data frame}
+\title{Multi-levels in a data.frame
+Determine how many levels are in a data.frame}
 \usage{
 multi_levels(df, ...)
 }
 \arguments{
-\item{df}{}
+\item{df}{a object of class data.frame}
 
 \item{...}{optional parameters supplied}
 }
@@ -15,16 +16,15 @@ multi_levels(df, ...)
 an object of class 'list' indicating the column name and the amount of levels
 }
 \description{
-determine how many levels are in a data frame
+Multi-levels in a data.frame
+Determine how many levels are in a data.frame
 }
 \examples{
- 
-sample_df = data.frame("x" = rnorm(1:10), 
-                    "y" = rnorm(1:10), 
-                    "letters" = letters[1:10], 
-                    "gender" = c("M", "F"), 
+sample_df = data.frame("x" = rnorm(1:10),
+                    "y" = rnorm(1:10),
+                    "letters" = letters[1:10],
+                    "gender" = c("M", "F"),
                     "pet" = c("spike", "spot", "fluffy", "mr. jingles", "rex") )
 
 multi_levels(df=sample_df)
 }
-

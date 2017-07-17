@@ -26,4 +26,3 @@ After creating train and test datasets in ML, check to make
 sanity_check(iris, iris)
 sanity_check(iris, cars)
 }
-

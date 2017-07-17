@@ -7,7 +7,7 @@
 code_block(text)
 }
 \arguments{
-\item{text}{a string}
+\item{text}{a character string}
 }
 \value{
 formated string in the console to be copied to your source
@@ -23,4 +23,3 @@ code_block("This section is important")
   #  This section is important
 # # # # # # # # # # # # # # # # # # # # # # # # #
 }
-

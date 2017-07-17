@@ -18,4 +18,3 @@ This is a starter function to just say hello!
 \examples{
 hello()
 }
-

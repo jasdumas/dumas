@@ -1,4 +1,4 @@
-#' calculate a percentage
+#' Calculate a percentage
 #'
 #' calculate the percent of a list of numerical objects in R
 #' @param df an object of class data.frame or list of numeric or double values

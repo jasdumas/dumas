@@ -26,4 +26,3 @@ a email is sent to you
 \description{
 Send a email upon R code completion
 }
-

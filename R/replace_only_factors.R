@@ -6,12 +6,11 @@
 #' @export
 #' @seealso \url{http://stackoverflow.com/a/2853231}
 replace_only_factors <- function(df) {
-  # create an empty data.frame in the global environment
-  df <<- data.frame()
+  df_new <- data.frame(df)
   # locate the position in the data.frame where the class is factor
-  i <- sapply(df, is.factor)
+  i <- sapply(df_new, is.factor)
   # apply through the list of factors to character class
-  df[i] <- lapply(df[i], as.character)
+  df_new[i] <- lapply(df_new[i], as.character)
   # changes the global variable to exclude factors if data set exists as df in global envir.
-  df <<- df
+  return(df_new)
 }

@@ -23,4 +23,3 @@ open.this()
 \seealso{
 Function graciously acquired from Garrett Dancik, PhD @ ECSU
 }
-

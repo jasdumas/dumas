@@ -1,32 +1,29 @@
-#' GGPLOT2 personal theme
-#' @description this was definetly inspiried by 538
+#' My ggplot2 personal theme
+#' @description This was definetly inspiried by 538 graphics
 #' @param title a string indicating title of plot
 #' @param subtitle a string indicating the subtitle of plot (development version of ggplot2)
 #' @param ... additional params
 #'
 #' @return a ggplot2 plot with format
 #' @export
-#'
+#' @import ggplot2
 #' @examples
 #' ggplot(iris, aes(x=Sepal.Width, y=Sepal.Length, color = Species)) +
 #'   geom_jitter() +
 #'   theme_minimal() +
 #'   theme_jasmine(title = "Hi", subtitle = "yo")
 theme_jasmine <- function(title, subtitle, ...){
-  library(ggplot2)
   theme_jasmine <- list(titles(title=title, subtitle=subtitle), th(), bold_line())
 }
 
 titles <- function(title, subtitle, ...){
-  library(ggplot2)
     # set up subtitle
     subtitle <- paste0(strwrap(subtitle, 80), sep="", collapse="\n")
     # Set main plot title and subtitle
-    labs(title = title, subtitle = subtitle)
+    labs(title = title, subtitle = subtitle, x = "", y = "")
 }
 
 th <- function(){
-  library(ggplot2)
   theme(plot.title=element_text(face="bold"),
         plot.subtitle=element_text(margin=margin(b=15)),
         # Set title and axis labels, and format these and tick marks
@@ -39,7 +36,6 @@ th <- function(){
 }
 
 bold_line <- function(){
-  library(ggplot2)
   # Big bold line at y=0
   geom_hline(yintercept=0,size=1.2,colour="#535353")
 }

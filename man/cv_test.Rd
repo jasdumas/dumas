@@ -2,7 +2,7 @@
 % Please edit documentation in R/cv_test.R
 \name{cv_test}
 \alias{cv_test}
-\title{calculate the cramer's V statistic}
+\title{Calculate the Cramer's V statistic}
 \usage{
 cv_test(x, y, ...)
 }
@@ -17,9 +17,8 @@ cv_test(x, y, ...)
 A list with class "htest"
 }
 \description{
-calculate the cramer's V statistic
+Calculate the Cramer's V statistic
 }
 \seealso{
 \url{http://www.r-bloggers.com/example-8-39-calculating-cramers-v/}
 }
-

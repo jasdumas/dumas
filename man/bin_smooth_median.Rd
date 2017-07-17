@@ -20,4 +20,3 @@ Bin smoothing by median
 \examples{
 bin_smooth_median(x = c(21, 15, 26, 26, 28, 29), bins=2)
 }
-

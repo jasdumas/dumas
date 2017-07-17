@@ -24,4 +24,3 @@ Replace outliers in a dataset
 \details{
 \url{http://sel-columbia.github.io/formhub.R/demo/RemoveOutliers.html}
 }
-
